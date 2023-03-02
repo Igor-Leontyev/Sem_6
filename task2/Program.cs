@@ -23,10 +23,10 @@ void checkParal()
 
 void serchPoint()
 {
-double x = (b2 - b1) / (k1 - k2);
+double x = (b2 - b1)/(k1 - k2);
 double y = k1 * x + b1;
 Console.WriteLine($"x = {x}\ny = {y}");
 }
 
 checkParal();
-serchPoint();
+serchPoint(); 
